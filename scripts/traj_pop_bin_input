@@ -1,0 +1,5 @@
+2  # n_state
+0.25  # dt_save
+1000  # n_trajs
+1201  # n_time
+0.35  # delt_n

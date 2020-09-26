@@ -1,0 +1,4 @@
+2  # n_state
+2000  # n_trajs
+ini_n_nuc.inp  # filename of initial n(occupation)
+1  # ggamma

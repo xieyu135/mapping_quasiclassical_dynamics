@@ -1,0 +1,18 @@
+elec: vv
+
+average PES done
+
+model 2: torsional potential: 0.5 * I_inverse * P_i **2 + 0.5 * V_i_n * ( 1 - cos(A) ) * c_n
+
+model 1: torsional potential: 0.5 * I_inverse * P_i **2 + 0.5 * V_i_n * ( 1 - cos(A) ) * c_n
+
+2018.12.27
+label_debug == 1, output trj.dat
+label_debug > 1, output debug information
+
+2019.03.22
+output energy
+ing
+
+2019.10.17
+traj_adjusted for model 2(MM)

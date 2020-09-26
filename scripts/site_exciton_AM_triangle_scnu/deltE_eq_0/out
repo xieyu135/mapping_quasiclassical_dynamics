@@ -1,0 +1,152 @@
+mkdir /share/home/xieyu/jobs/site_exciton/mapping_model1/SQC/zpe0.2/wc_200/kdw_0.5
+generate main_spec_dens_input
+mkdir /share/home/xieyu/jobs/site_exciton/mapping_model1/SQC/zpe0.2/wc_200/kdw_0.7
+generate main_spec_dens_input
+n_state:
+n_mode:
+n_state:
+n_mode:
+ spec_dens = 2.d0 * lambda * omega * omega_c / (omega**2 + omega_c**2)
+ The energy unit of output is eV.
+ Energy unit(au, ev or cm?):
+ omega_c:
+ lambda:
+ Number of modes in the w_k output file:
+ delt omega
+ w_k output file after discretization:
+n_state:
+n_mode:
+ggamma:
+n_trajs:
+occupied state:
+n_step:
+nuc_dt:
+n_ele_dt:
+n_save_trj:
+label_restart:
+label_diabatic:
+label_debug:
+
+nuc_sampling_method:
+1. action_angle
+2. wigner (temperature)
+3. action angle (temperature)
+4. action angle (window)
+Temperature(K):
+mapping_model:
+hamilton_type:
+ n_state:
+ n_traj:
+ filename of initial n(occupation):
+ gamma:
+ n_atom =           1
+ n_mode =         200
+ label_random=           1
+ nr=     1000000
+ nbin=          50
+ label_read_vib=           2
+ label_es_output=           3
+ filename_es_output=freq.log                                                                                            
+ label_displacement=           0
+ label_dis_wigner=           0
+ n_geom=        5000
+ label_method=          11
+ t_k   0.0000000000000000     
+ label_frozen=           0
+ number_frozen=  1087440624
+ list_frozen=
+
+
+ ----------------------------------------
+ Make the displacements of Q and P
+ ----------------------------------------
+
+
+ ----------------------------------------
+ Make the displacements of Q and P from  Wigner distributions
+ ----------------------------------------
+ Standard Wigner distribution function
+ Temperature is   0.0000000000000000     
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ---------------------------------------
+ Generate two sets of random numbers from 2D Gaussian distribution (certain T_k) 
+ Generate the first set of random number from the uniform distribution [0,1) 
+ Generate the second set of random number from the uniform distribution [0,1)
+ ---------------------------------------
+ Wigner sampling at temperature T_k
+n_traj:
+n_mode:
+n_state:
+n_mode:
+n_state:
+n_mode:
+ spec_dens = 2.d0 * lambda * omega * omega_c / (omega**2 + omega_c**2)
+ The energy unit of output is eV.
+ Energy unit(au, ev or cm?):
+ omega_c:
+ lambda:
+ Number of modes in the w_k output file:
+ delt omega
+ w_k output file after discretization:
+n_state:
+n_mode:
+ggamma:
+n_trajs:
+occupied state:
+n_step:
+nuc_dt:
+n_ele_dt:
+n_save_trj:
+label_restart:
+label_diabatic:
+label_debug:
+
+nuc_sampling_method:
+1. action_angle
+2. wigner (temperature)
+3. action angle (temperature)
+4. action angle (window)
+Temperature(K):
+mapping_model:
+hamilton_type:
+ n_state:
+ n_traj:
+ filename of initial n(occupation):
+ gamma:
+ n_atom =           1
+ n_mode =         200
+ label_random=           1
+ nr=     1000000
+ nbin=          50
+ label_read_vib=           2
+ label_es_output=           3
+ filename_es_output=freq.log                                                                                            
+ label_displacement=           0
+ label_dis_wigner=           0
+ n_geom=        5000
+ label_method=          11
+ t_k   0.0000000000000000     
+ label_frozen=           0
+ number_frozen=  -528003344
+ list_frozen=
+
+
+ ----------------------------------------
+ Make the displacements of Q and P
+ ----------------------------------------
+
+
+ ----------------------------------------
+ Make the displacements of Q and P from  Wigner distributions
+ ----------------------------------------
+ Standard Wigner distribution function
+ Temperature is   0.0000000000000000     
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ---------------------------------------
+ Generate two sets of random numbers from 2D Gaussian distribution (certain T_k) 
+ Generate the first set of random number from the uniform distribution [0,1) 
+ Generate the second set of random number from the uniform distribution [0,1)
+ ---------------------------------------
+ Wigner sampling at temperature T_k
+n_traj:
+n_mode:

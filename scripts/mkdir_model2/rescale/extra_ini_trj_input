@@ -1,0 +1,3 @@
+5000  # n_trajs
+200  # n_mode
+0.0555 # high freq cutoff (eV)

@@ -1,0 +1,29 @@
+#PBS -N mapping
+#PBS -l walltime=999:00:00
+#PBS -j oe
+#PBS -q eth
+#PBS -l nodes=1:ppn=8
+#PBS -V
+
+
+echo "Running on "$HOSTNAME
+cat $PBS_NODEFILE
+
+user="xieyu"
+CURR=$PWD
+WORK_DIR=$CURR
+TMP_DIR="/tmp/$user/$PBS_JOBID"
+
+
+cd $PBS_O_WORKDIR
+
+#mkdir -p  $TMP_DIR
+
+#cp -r $WORK_DIR/* $TMP_DIR 
+#cd $TMP_DIR
+echo "Starting mapping run at "`date`
+bash run.sh
+echo "Finished mapping run at "`date`
+#cp -rf $TMP_DIR/*   $WORK_DIR
+#rm -rf $TMP_DIR
+

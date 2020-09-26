@@ -1,0 +1,5 @@
+0. main program
+
+read x, p, X, P, dij, grad
+calculate delt_P
+          P_kin

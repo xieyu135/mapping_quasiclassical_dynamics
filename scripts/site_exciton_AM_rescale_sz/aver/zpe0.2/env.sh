@@ -1,0 +1,3 @@
+
+program=$HOME/xieyu/program
+

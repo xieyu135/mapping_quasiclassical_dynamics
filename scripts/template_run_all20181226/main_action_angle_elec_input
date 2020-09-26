@@ -1,0 +1,4 @@
+2  # n_state
+8  # n_trajs
+ini_n_elec.inp  # filename of initial n(occupation)
+0.66666666  # ggamma

@@ -1,0 +1,7 @@
+/home-gg/users/nscc540_WJ/xieyu/PBI_NEW/101monomers/cutoff0.2/middle_stochastic_vc0.1
+1. 进入ham_input 运行gener_vmat.py < gener_vmat_input
+2. 回到上级目录，运行sh bin/gener_trajs.sh 生成轨线
+3. 用bat_gener_ene.py在每个轨线的文件夹生成有分布的ene.input
+4. 运行所有作业
+5. 运行sh ana.sh，计算population
+6. 运行python /home-gg/users/nscc540_WJ/xieyu/program/mapping/scripts/bat_triangle_coherence.py < traj_pop_aver_SQC_input 求密度矩阵

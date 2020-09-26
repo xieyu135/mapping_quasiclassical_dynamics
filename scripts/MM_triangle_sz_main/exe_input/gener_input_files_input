@@ -1,0 +1,19 @@
+2      # n_state
+3    # n_mode
+0.66666667     # ggamma
+1   # n_trajs
+3     # n_mode_HO
+0      # n_mode_tor
+2      # occupied state
+50  # n_step
+0.01   # nuc_dt
+10     # n_ele_dt
+100     # n_save_trj
+0      # label_restart
+1      # label_diabatic
+0      # label_debug
+2      # nuc_sampling_method. 1. action_angle; 2. wigner; 3. action_angle(temperature); 4. action angle (window)
+0      # temperature(K)
+2      # mapping_model
+3      # hamilton_type
+1      # label_aver_PES

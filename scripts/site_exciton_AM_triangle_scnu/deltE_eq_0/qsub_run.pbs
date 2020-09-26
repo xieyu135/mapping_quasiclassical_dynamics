@@ -1,0 +1,21 @@
+#PBS -N mapping
+#PBS -l walltime=999:00:00
+#PBS -j oe
+#PBS -q eth
+#PBS -l nodes=1:ppn=8
+
+
+
+
+echo Transferring files from server to compute node
+echo Writing files in node directory
+cd $TMPDIR
+
+cp -r $PBS_O_WORKDIR/* $TMPDIR
+
+sh run.sh  #exe
+
+echo Files in node work directory are as follows:
+ls -l
+
+cp -r * $PBS_O_WORKDIR/

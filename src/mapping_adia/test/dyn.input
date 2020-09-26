@@ -1,0 +1,14 @@
+&dyn_control
+n_state =  2
+n_mode =  3
+ggamma =  0.
+n_step =  1
+nuc_dt =  0.01
+n_ele_dt =  10
+n_save_trj =  25
+label_restart =  0
+label_diabatic =  1
+label_debug =  1
+mapping_model =  2
+label_aver_PES = 1
+/

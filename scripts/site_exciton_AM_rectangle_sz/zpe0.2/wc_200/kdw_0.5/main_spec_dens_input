@@ -1,0 +1,7 @@
+cm        # energy unit
+200     # omega_c
+25         # lambda
+100       # n_mode
+12      # delt_omega
+w_k_out.dat # file_w_k_out
+

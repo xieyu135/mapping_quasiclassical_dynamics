@@ -1,0 +1,144 @@
+************************
+gcn02 nscc540_WJ
+    1  2019-01-28 10:35:30 cd xieyu/program/mapping/scripts/
+    2  2019-01-28 10:35:31 ls
+    3  2019-01-28 10:36:11 cd MM_aver_sz
+    4  2019-01-28 10:36:12 ls
+    5  2019-01-28 10:36:22 rm -fr *
+    6  2019-01-28 10:36:38 pwd
+    7  2019-01-28 10:37:00 cd ../MM_rectangle_sz
+    8  2019-01-28 10:37:02 ls
+    9  2019-01-28 10:37:07 cd exe_input/
+   10  2019-01-28 10:37:08 ls
+   11  2019-01-28 10:37:12 cd ../
+   12  2019-01-28 10:37:43 cp ../MM_aver_sz/exe_input/ . -r
+   13  2019-01-28 10:37:54 cp ../MM_aver_sz/ham_input/ . -r
+   14  2019-01-28 10:37:56 ls
+   15  2019-01-28 10:37:58 cd ham_input/
+   16  2019-01-28 10:37:59 ls
+   17  2019-01-28 10:38:02 rm *py
+   18  2019-01-28 10:38:03 ls
+   19  2019-01-28 10:38:05 rm *dat
+   20  2019-01-28 10:38:06 ls
+   21  2019-01-28 10:38:13 cd ..
+   22  2019-01-28 10:38:14 ls
+   23  2019-01-28 10:38:17 cd bin/
+   24  2019-01-28 10:38:22 vi ../exe_input/gener_input_files_input 
+   25  2019-01-28 10:38:31 vi all.sh 
+   26  2019-01-28 10:39:06 vi all.sh ../../MM_aver_sz/bin/all.sh -d
+   27  2019-01-28 10:40:35 vi all.sh cp_trj.sh -O
+   28  2019-01-28 10:40:56 vi cp_trj.sh ../../MM_aver_sz/bin/cp_trj.sh -O
+   29  2019-01-28 10:41:30 cp ../../MM_aver_sz/bin/env.sh .
+   30  2019-01-28 10:41:31 ls
+   31  2019-01-28 10:41:38 vi all.sh cp_trj.sh -O
+   32  2019-01-28 10:43:42 vi ../../MM_aver_sz/bin/cp_trj.sh 
+   33  2019-01-28 10:43:51 vi cp_trj.sh 
+   34  2019-01-28 10:44:06 vi all.sh 
+   35  2019-01-28 10:44:45 vi cp_trj.sh 
+   36  2019-01-28 10:44:54 vi all.sh 
+   37  2019-01-28 10:45:01 cd ..
+   38  2019-01-28 10:45:02 ls
+   39  2019-01-28 10:45:08 vi exe_input/gener_input_files_input 
+   40  2019-01-28 10:45:19 sh bin/all.sh 
+   41  2019-01-28 10:46:56 ls
+   42  2019-01-28 10:47:03 ls trajs/
+   43  2019-01-28 10:47:06 ls trajs/1/
+   44  2019-01-28 10:47:26 vi bin/all.sh 
+   45  2019-01-28 10:47:41 source bin/env.sh 
+   46  2019-01-28 10:47:47 cat bin/all.sh 
+   47  2019-01-28 10:47:55 exe_win="python $program/mapping/scripts/bat_win.py"
+   48  2019-01-28 10:48:06 $exe_aver < traj_pop_aver_SQC_input 
+   49  2019-01-28 10:48:07 ls
+   50  2019-01-28 10:48:13 ls trajs/1
+   51  2019-01-28 10:48:37 vi $program/mapping/scripts/bat_win.py
+   52  2019-01-28 10:49:07 vi /home-gg/users/nscc540_WJ/xieyu/program/mapping/scripts/window.py
+   53  2019-01-28 10:49:43 cd trajs/1
+   54  2019-01-28 10:49:50 python /home-gg/users/nscc540_WJ/xieyu/program/mapping/scripts/window.py
+   55  2019-01-28 10:50:03 cd ..
+   56  2019-01-28 10:50:03 ls
+   57  2019-01-28 10:50:05 cd ..
+   58  2019-01-28 10:50:06 ls
+   59  2019-01-28 10:50:13 vi exe_input/gener_input_files_input 
+   60  2019-01-28 10:50:28 sh bin/all.sh 
+   61  2019-01-28 10:52:51 ls
+   62  2019-01-28 10:52:54 vi pop_t.dat 
+   63  2019-01-28 10:54:38 rm *inp*
+   64  2019-01-28 10:54:38 ls
+   65  2019-01-28 10:54:43 rm *dat*
+   66  2019-01-28 10:54:44 ls
+   67  2019-01-28 11:13:00 pwd
+   68  2019-01-28 11:51:24 ls
+   69  2019-01-28 11:51:30 cd ../MM_triangle_sz/
+   70  2019-01-28 11:51:31 ls
+   71  2019-01-28 11:51:41 rm exe_input ham_input/ -fr
+   72  2019-01-28 11:51:53 cp ../MM_rectangle_sz/exe_input . -r
+   73  2019-01-28 11:52:04 cp ../MM_rectangle_sz/ham_input . -r
+   74  2019-01-28 11:52:05 ls
+   75  2019-01-28 11:52:08 cd exe_input/
+   76  2019-01-28 11:52:09 ls
+   77  2019-01-28 11:52:11 vi gener_input_files_input 
+   78  2019-01-28 11:52:27 cd ..
+   79  2019-01-28 11:52:35 cd bin/
+   80  2019-01-28 11:52:36 ls
+   81  2019-01-28 11:52:40 vi cp_trj.sh 
+   82  2019-01-28 11:53:09 vi all.sh ../../MM_rectangle_sz/bin/all.sh -d
+   83  2019-01-28 13:21:14 cp ../../MM_rectangle_sz/bin/env.sh .
+   84  2019-01-28 13:21:15 ls
+   85  2019-01-28 13:21:57 vi cp_trj.sh 
+   86  2019-01-28 13:22:06 vi all.sh 
+   87  2019-01-28 13:22:14 cd..
+   88  2019-01-28 13:22:16 pwd
+   89  2019-01-28 13:22:23 vi exe_input/gener_input_files_input 
+   90  2019-01-28 13:22:35 sh bin/all.sh 
+   91  2019-01-28 13:23:53 ls
+   92  2019-01-28 13:23:55 vi pop_t.dat 
+   93  2019-01-28 13:24:03 rm *
+   94  2019-01-28 13:24:07 rm -fr trajs/
+   95  2019-01-28 13:24:08 ls
+   96  2019-01-28 13:24:32 pwd
+   97  2019-01-28 13:28:14 cd ..
+   98  2019-01-28 13:28:15 ls
+   99  2019-01-28 13:28:37 cp MM_triangle_sz AM_triangle_sz -r
+  100  2019-01-28 13:28:47 cd site_exciton_AM_triangle_sz/
+  101  2019-01-28 13:28:48 ls
+  102  2019-01-28 13:28:53 cd deltE_eq_0/
+  103  2019-01-28 13:28:54 ls
+  104  2019-01-28 13:29:13 cp cp_trj.sh ../../AM_triangle_sz/bin/
+  105  2019-01-28 13:29:32 vi sub_all.sh ../../AM_triangle_sz/bin/sub_all.sh -O
+  106  2019-01-28 13:29:54 vi sub_all.sh ../../AM_triangle_sz/bin/all.sh -O
+  107  2019-01-28 13:30:59 cd ../../AM_triangle_sz
+  108  2019-01-28 13:31:00 ls
+  109  2019-01-28 13:31:40 vi exe_input/gener_input_files_input 
+  110  2019-01-28 13:32:17 sh bin/all.sh 
+  111  2019-01-28 13:33:23 ls
+  112  2019-01-28 13:33:25 vi pop_t.dat 
+  113  2019-01-28 13:33:35 rm *
+  114  2019-01-28 13:33:39 rm -fr trajs
+  115  2019-01-28 13:33:40 ls
+  116  2019-01-28 13:34:00 cp * /home-gg/users/nscc540_WJ/xieyu/conicalintersection/3/triangle -r
+  117  2019-01-28 15:59:11 cd ..
+  118  2019-01-28 15:59:15 ls
+  119  2019-01-28 15:59:31 cp AM_triangle_sz AM_rectangle_sz
+  120  2019-01-28 15:59:34 cp AM_triangle_sz AM_rectangle_sz -r
+  121  2019-01-28 15:59:40 cd AM_rectangle_sz
+  122  2019-01-28 15:59:47 cd bin/
+  123  2019-01-28 15:59:47 ls
+  124  2019-01-28 16:00:08 cp ../../site_exciton_AM_rectangle_sz/zpe0.2/cp_trj.sh .
+  125  2019-01-28 16:00:11 vi cp_trj.sh 
+  126  2019-01-28 16:00:31 vi all.sh 
+  127  2019-01-28 16:00:50 vi all.sh ../../site_exciton_AM_rectangle_sz/zpe0.2/sub_all.sh -O
+  128  2019-01-28 16:01:38 ls
+  129  2019-01-28 16:01:41 vi env.sh 
+  130  2019-01-28 16:01:53 vi all.sh 
+  131  2019-01-28 16:01:58 cd ..
+  132  2019-01-28 16:02:05 vi exe_input/gener_input_files_input 
+  133  2019-01-28 16:02:40 sh bin/all.sh 
+  134  2019-01-28 16:04:12 ls
+  135  2019-01-28 16:04:16 vi pop_t.dat 
+  136  2019-01-28 16:04:24 rm *
+  137  2019-01-28 16:04:32 ls
+  138  2019-01-28 16:05:00 shopt -s extgolb
+  139  2019-01-28 16:05:34 ls | grep -v trajs
+  140  2019-01-28 16:05:44 ls
+  141  2019-01-28 16:05:49 rm trajs/ -fr
+  142  2019-01-28 16:06:51 cp -r * /home-gg/users/nscc540_WJ/xieyu/conicalintersection/AM/3/rectangle/zpe0.1

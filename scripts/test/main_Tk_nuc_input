@@ -1,0 +1,22 @@
+1 read (*,*) n_atom
+200 read (*,*) n_mode
+read (*,*)
+1 read (*,*) label_random
+40000 read (*,*) nr
+50 read (*,*) nbin
+read (*,*)
+2 read (*,*) label_read_vib
+3 read (*,*) label_es_output
+freq.log  read (*,*) filename_es_output
+read (*,*)
+0 read (*,*) label_displacement
+read (*,*)
+0 read (*,*) label_dis_wigner
+read (*,*)
+200 read (*,*) n_geom
+11 read (*,*) label_method
+0 read (*,*) t_k
+read (*,*)
+0 read (*,*) label_frozen
+2 read (*,*) number_frozen
+1  2  read (*,*) list_frozen
